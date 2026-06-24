@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MANAV CHOPRA | Software Architect</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;700&amp;family=Geist:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+              "surface-dim": "#131313",
+              "primary-fixed-dim": "#ff9d5c",
+              "primary-container": "#ff6b00",
+              "on-background": "#e2e2e5",
+              "secondary-container": "#ed9000",
+              "primary": "#ffdbcc",
+              "secondary": "#ffb86b",
+              "background": "#0c0e10",
+              "on-surface": "#e2e2e5",
+              "surface": "#131313",
+              "primary-fixed": "#ff6b00",
+              "on-primary-fixed": "#351000",
+              "on-surface-variant": "#e2bfb0",
+              "surface-container": "#1c1b1b",
+              "surface-container-high": "#2a2a2a"
+            },
+            "fontFamily": {
+              "body-lg": ["Inter"],
+              "label-sm": ["JetBrains Mono"],
+              "headline-md": ["Geist"],
+              "headline-lg": ["Geist"],
+              "display-lg": ["Geist"]
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#0c0e10] text-[#e2e2e5] selection:bg-[#ff6b00] selection:text-[#351000]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
