@@ -1211,21 +1211,27 @@ export default function App() {
               <div className="project-card rounded-[3rem] p-10 flex flex-col group transition-all duration-500 hover:-translate-y-4 hover:border-[#ff6b00]/20">
                 <div className="flex justify-between items-start mb-8">
                   <span className="font-geist text-6xl font-bold text-white/90">03</span>
-                  <span className="font-mono text-xs text-on-surface-variant uppercase tracking-widest bg-white/5 px-4 py-2 rounded-full border border-white/10">Full-Stack</span>
+                  <span className="font-mono text-xs text-on-surface-variant uppercase tracking-widest bg-white/5 px-4 py-2 rounded-full border border-white/10">AI/Backend</span>
                 </div>
-                <h3 className="font-geist text-3xl font-bold text-white mb-4">Culinary Compass</h3>
+                <h3 className="font-geist text-3xl font-bold text-white mb-4">A.S.T.R.A</h3>
                 <p className="font-body-md text-sm text-on-surface-variant mb-6 leading-relaxed">
-                  A full-stack recipe recommendation web application utilizing custom backend logic and frontend templates to match user ingredients with ideal culinary options.
+                  Advanced Strategic Technology and Research Assistant. A powerful personal AI backend with real-time web search, vector-based memory, and intelligent conversation powered by Groq's high-speed LLMs.
                 </p>
                 <div className="mb-6 mt-auto">
                   <p className="font-mono text-[10px] uppercase tracking-widest text-[#ff6b00] mb-2">Techstack used</p>
-                  <p className="font-mono text-sm text-on-surface-variant leading-relaxed">Flask · Python · HTML · CSS</p>
+                  <p className="font-mono text-sm text-on-surface-variant leading-relaxed">FastAPI · Python · Groq · FAISS · Tavily API</p>
                 </div>
-                <div className="relative rounded-2xl overflow-hidden border border-white/5 shadow-2xl">
-                  <img alt="Culinary Compass Preview" className="w-full aspect-[4/3] object-cover grayscale group-hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXsc1iqqZxrGNINFYcBGnQ898mzZGZQxe0kNX231qP5bDj_DBbrcZ1mO4bqwp76Z8Ydu7ZNanXMb6kFwNKrL6WG7QkcH9L1oSKLPIQTHWXvAukmdQ5ZyoyVu2_K6EffVErqNDbej4gk3BCFtDCVkA0Twc5fP1uYgWbKKIQxU9JL3G7odrXUXEJWzoV9uHlML7YGYcKYv_RedPYCMIb3ZlfA1WazfhiNT0NLALDVyS5zHTs0kqatLI-vrR24I0y7TRZGB_anPMKpw" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
-                    <button className="w-full py-3 bg-[#ff6b00] text-[#351000] font-geist font-bold rounded-xl text-sm tracking-widest uppercase">View Details</button>
+                <div className="relative rounded-2xl overflow-hidden border border-white/5 shadow-2xl bg-gradient-to-br from-[#ff6b00]/10 via-transparent to-[#0c0e10]">
+                  <div className="w-full aspect-[4/3] flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
+                    <div className="text-center">
+                      <span className="material-symbols-outlined text-6xl text-[#ff6b00] block mb-4">smart_toy</span>
+                      <p className="font-geist text-lg font-bold text-[#ff6b00]">AI-Powered Assistant</p>
+                      <p className="font-mono text-xs text-on-surface-variant mt-2">FastAPI + LLM Backend</p>
+                    </div>
                   </div>
+                  <a href="https://github.com/ManBuilds/A.S.T.R.A---Advanced-Strategic-Technology-and-Research-Assistant" target="_blank" rel="noopener noreferrer" className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
+                    <button className="w-full py-3 bg-[#ff6b00] text-[#351000] font-geist font-bold rounded-xl text-sm tracking-widest uppercase hover:bg-[#ff8533] transition-colors">View on GitHub</button>
+                  </a>
                 </div>
               </div>
             </div>
