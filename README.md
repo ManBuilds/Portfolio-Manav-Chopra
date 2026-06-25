@@ -1,4 +1,4 @@
-# 🚀 Manav Chopra's Portfolio
+# 🚀 Manav Chopra's Portfolio 🚀
 
 > **A modern, interactive 3D portfolio showcasing AI/ML expertise and creative web development**
 
